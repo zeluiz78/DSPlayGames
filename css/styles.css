@@ -1,0 +1,484 @@
+:root {
+    --color-red: #DD7E92;
+    --color-green: #38AF90;
+    --color-Gray: #797979;
+    --color-light-gray: #F0F0F0;
+    --color-dark-grey: #383838;
+    --color-white: #FFFFFF;
+    --color-cinza: #C4C4C4;
+}
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+footer {
+    height: 320px;
+    background-color: var(--color-dark-grey);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 28px;
+}
+
+.nav-container {
+    background-color: var(--color-green);
+    height: 90px;
+    width: 100%;
+    padding: 20px;
+    position: fixed;
+    display: flex;
+}
+
+.nav-main {
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.nav-main a {
+    color: var(--color-white);
+}
+
+.menu-items {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-items a {
+    display: none;
+}
+
+.menu-items li {
+    margin: 10px;
+}
+
+.nav-avatar img {
+    height: 62px;
+    margin: 10px;
+}
+
+.nav-brand {
+    font-weight: 700;
+    font-size: 18px;
+    padding-right: 30px;
+}
+
+#news {
+    color: var(--color-Gray);
+    padding: 130px 0 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.new-info h1 {
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    color: var(--color-Gray);
+}
+
+.card-news {
+    width: 300px;
+    height: 493px;
+    border-radius: 8px;
+    background-color: var(--color-light-gray);
+    padding: 12px;
+    margin-bottom: 28px;
+}
+
+.card-news h3 {
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--color-green);
+    margin: 0;
+}
+
+.card-news p {
+    font-weight: 700;
+    font-size: 12px;
+    color: var(--color-Gray);
+    margin: 0;
+}
+
+.card-date {
+    border: 1px solid var(--color-green);
+    width: 275.76px;
+    height: 1px;
+}
+
+.card-date p {
+    color: var(--color-green);
+    font-weight: 400;
+    font-size: 10px;
+    margin: 5px 0 0 0;
+}
+
+.card-description p {
+    font-weight: 400;
+    font-size: 10px;
+    color: var(--color-Gray);
+    padding: 30px 0 0 0;
+}
+
+.card-more p {
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--color-red);
+    margin: 20px 0 0 0;
+}
+
+.btn {
+    font-weight: 700;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    color: var(--color-white);
+    background-color: var(--color-red);
+    width: 244px;
+    height: 67px;
+    border-radius: 8px;
+    border-color: var(--color-white);
+}
+
+#games {
+    height: 1176px;
+    background-color: var(--color-light-gray);
+    padding: 40px 0 0 10px;
+}
+
+.card-game h2 {
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    color: var(--color-green);
+}
+
+.card-game-info {
+    width: 300px;
+    background-color: var(--color-white);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    flex-direction: column;
+    display: flex;
+    margin-bottom: 27px;
+}
+
+.title-card-img {
+    max-width: 300px;
+    border-radius: 10px;
+    cursor: pointer;
+    border-radius: 8px 8px 0 0;
+}
+
+.card-game-info h2 {
+    font-weight: 700;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: var(--color-Gray);
+    margin: 0;
+    margin-top: 27.46px;
+}
+
+.card-game-info p {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--color-Gray);
+    justify-content: center;
+    text-align: center;
+}
+
+.title-card-game {
+    margin: 0;
+}
+
+.title-card-game span {
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--color-green);
+    justify-content: center;
+    text-align: center;
+    margin-top: 13px;
+}
+
+.title-point {
+    font-weight: 700;
+    margin: 13 0 15px 0;
+    padding: 0;
+}
+
+.title-point span {
+    font-weight: 700;
+    font-size: 36px;
+    color: var(--color-green);
+    align-items: center;
+    text-align: center;
+}
+
+#sign-up h2 {
+    color: var(--color-Gray);
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    padding: 40px 0 16px 0;
+}
+
+.card-sign-up {
+    background-color: var(--color-light-gray);
+    border-radius: 8px;
+    width: 300px;
+    margin: 0 8px 0 12px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-form-1 input {
+    width: 280px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #797979;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 22px;
+    margin: 47px 12px 20px 8px;
+}
+
+.card-form-2 input {
+    width: 280px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #797979;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 22px;
+    margin: 0 12px 20px 8px;
+}
+
+.card-plataforma {
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    color: #797979;
+    margin: 20px 39px 8px 8px;
+    margin-top: 2px;
+}
+
+.card-pc input {
+    height: 23px;
+    width: 23px;
+    border: 1px solid #999999;
+    margin: 8px 7px 8px 10px;
+    text-align: center;
+}
+
+.card-pc label {
+    font-weight: 400;
+    font-size: 16px;
+    align-items: center;
+    width: 39px;
+    height: 24px;
+    color: #797979;
+    margin: 0;
+    text-align: center;
+}
+
+.card-new label {
+    font-weight: 400;
+    font-size: 16px;
+    align-items: center;
+    color: #797979;
+    margin: 0;
+    padding: 0;
+}
+
+.card-new input {
+    width: 23px;
+    height: 23px;
+    background: #FFFFFF;
+    border: 1px solid #999999;
+    margin: 20px 9px 20px 8px;
+}
+
+.card-new-2 {
+    width: 244px;
+    height: 67px;
+    background: #DD7E92;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    border: 2px solid #DD7E92;
+    margin: 47px 30px 20px 26px;
+}
+
+.card-new-3 {
+    width: 244px;
+    height: 67px;
+    background: var(--color-white);
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    color: var(--color-red);
+    border: 2px solid #DD7E92;
+    margin: 0 30px 20px 26px;
+}
+
+.section-sign-up p {
+    text-align: center;
+}
+
+.social-container a {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--color-white);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.footer-social p {
+    font-weight: 400;
+    font-size: 14px;
+    align-items: center;
+    text-align: center;
+    color: var(--color-white);
+    margin-top: 37.32px;
+}
+
+.footer-policy {
+    font-weight: 400;
+    font-size: 14px;
+    align-items: center;
+    text-align: center;
+    color: var(--color-white);
+    margin-top: 37px;
+}
+
+.footer-term {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--color-white);
+    align-items: center;
+    text-align: center;
+}
+
+@media(min-width: 576px) {
+    .nav-brand {
+        font-weight: 700;
+        font-size: 24px;
+    }
+    .nav-brand {
+        margin-right: 400px;
+    }
+    .menu-items a {
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+    }
+    .new-info h1 {
+        font-weight: 700;
+        font-size: 36px;
+    }
+    .card-news {
+        width: 990px;
+        height: 247px;
+    }
+    .card-news h3 {
+        font-weight: 700;
+        font-size: 24px;
+    }
+    .card-news p {
+        font-weight: 700;
+        font-size: 16px;
+    }
+    .card-description p {
+        font-weight: 400;
+        font-size: 10px;
+    }
+    .card-date {
+        width: 910px;
+    }
+    .card-date p {
+        font-weight: 400;
+        font-size: 10px;
+    }
+    #games {
+        width: 100%;
+        height: 559px;
+        padding-left: 200px;
+    }
+    .card-game h2 {
+        font-weight: 700;
+        font-size: 36px;
+        text-align: center;
+        align-items: center;
+        margin-left: -300px;
+    }
+    .card-game-info {
+        display: inline-block;
+        margin: 30px;
+    }
+    .card-game-info img {
+        width: 300px;
+        border-radius: 8px 8px 0 0;
+    }
+    #sign-up h2 {
+        font-weight: 700;
+        font-size: 36px;
+    }
+    .card-sign-up {
+        width: 790px;
+        height: 522px;
+        margin: 0 auto;
+        padding: 0 75px 52px 73px;
+        margin-bottom: 61px;
+    }
+    .card-new-2 {
+        margin: 15px 0 52px 60px;
+    }
+    .card-form-1 input {
+        width: 642px;
+        height: 50px;
+    }
+    .card-form-2 input {
+        width: 642px;
+        height: 50px;
+    }
+    footer {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .social-container {
+        margin-left: 105px;
+    }
+    .footer-policy {
+        margin-right: 105px;
+    }
+    .footer-term {
+        margin-right: 105px;
+    }
+}
